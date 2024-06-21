@@ -1,0 +1,40 @@
+#How to change data types in JavaScript
+##Number to String
+```js
+let age = 22;
+console.log(typeof age);  
+
+//we have to change 22 -> "22"
+
+age = age + "";
+// age = String(age);
+
+console.log(typeof age);
+
+##String to Number
+let mystr = "34";
+
+//we have to change "34" -> 34
+
+mystr = +"34";
+//mystr = Number("34");
+
+console.log(typeof mystr);
+
+#How to clone array
+
+```js
+//first method
+let array1 = ["apple","mango"];
+let array2 = ["apple","mango"];
+
+//second method
+let array2 = array1.slice(0);
+
+//third method
+let array2 = [].concat(array1);
+
+//New and Best method Spread Operator
+let array2 = [...array1];
+
+//Slice Method is best in term of performance but Spread operator is more oftenly used by programmars

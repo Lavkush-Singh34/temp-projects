@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /* background-color: hsl(0, 0%, 94%); */
+    background-color: rgb(240, 64, 64);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    /* background-color: grey; */
+    color: white;
+}
+
+@font-face {
+    font-family: 'lavkushFont';
+    src: url(./welcome_magic/Welcome\ Magic.otf);
+}
+h1 {
+    font-family: "lavkushFont";
+    font-size: 6rem;
+}
+
+p {
+    font-family: "lavkushFont";
+}
